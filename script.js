@@ -70,6 +70,8 @@ newGame.addEventListener('click', function(){
     para2.innerHTML = x.toString();
     cPara1.innerHTML = x.toString();
     cPara2.innerHTML = x.toString();
-    player1Head.innerHTML = `PLAYER 1<span class="left-dot"><i class="fas fa-circle"></i></span>`;
-    player2Head.innerHTML = `PLAYER 2<span class="left-dot"><i class="fas fa-circle"></i></span>`;
+    player1Head.innerHTML = "PLAYER 1";
+    player2Head.innerHTML = "PLAYER 2";
+    leftDot.style.display = 'inline-block';
+    rightDot.style.display = 'none';
 });

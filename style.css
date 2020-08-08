@@ -34,15 +34,18 @@
     flex: 1;
 }
 .player-1-head, .player-2-head{
-    text-align: center;
     padding: 20px 0;
     margin-top: 40px;
+    margin-left: 180px;
     font-weight: 500;
+    display: inline-block;
+
 }
 .left-dot, .right-dot{
     font-size: 0.8rem;
-    margin-left: 20px;
     color: maroon;
+    margin-left: 50px;
+    display: inline-block;
 }
 .player-1-para, .player-2-para{
     font-size: 5rem;
