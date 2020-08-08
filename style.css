@@ -1,0 +1,90 @@
+/* #ebebe0 */
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    height: 450px;
+    position: relative;
+}
+.newgame{
+    position: absolute;
+    display: flex;
+    left: 380px;
+    top: 10px;
+    cursor: pointer;
+}
+.newgame i{
+    display: block;
+    padding: 7px 10px;
+    font-size: 1.5rem;
+    color: maroon;
+}
+.newgame h1{
+    font-weight: 500;
+}
+.left{
+    flex: 1;
+    background-color: #ebebe0;
+}
+.right{
+    flex: 1;
+}
+.player-1-head, .player-2-head{
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.left-dot, .right-dot{
+    font-size: 0.8rem;
+    margin-left: 20px;
+    color: maroon;
+}
+.player-1-para, .player-2-para{
+    font-size: 5rem;
+    text-align: center;
+    margin: 20px 0;
+    color: maroon;
+}
+.left-current, .right-current{
+    background-color: maroon;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 50px auto;
+}
+.left-current h1,.right-current h1{
+    font-weight: 500;
+}
+.left-current p,.right-current p{
+    font-size: 3rem;
+    color: white;
+}
+.roll-dice{
+    position: absolute;
+    bottom: 60px;
+    left: 380px;
+    display: flex;
+    cursor: pointer;
+}
+.roll-dice i{
+    display: block;
+    color: maroon;
+    padding: 7px 10px;
+    font-size: 1.5rem;
+}
+.roll-dice h1{
+    font-weight: 500;
+}
+.img{
+    position: absolute;
+    width: 50px;
+    top: 200px;
+    left: 475px;
+}
