@@ -1,11 +1,11 @@
 let rollDice = document.querySelector('.roll-dice');
 let img = document.getElementById('img');
 img.style.display = 'none';
-var player1 = 0;
-var player2 = 0;
+let player1 = 0;
+let player2 = 0;
 let leftDot = document.querySelector('.left-dot');
 let rightDot = document.querySelector('.right-dot');
-var x = 0;
+let x = 0;
 let player1Head = document.querySelector('.player-1-head');
 let player2Head = document.querySelector('.player-2-head');
 rightDot.style.display = 'none';
@@ -17,7 +17,7 @@ let cPara1 = document.querySelector('.current-para-1');
 let cPara2 = document.querySelector('.current-para-2');
 rollDice.addEventListener('click', function(){
     let random = Math.ceil(Math.random()*6);
-    img.setAttribute('src', 'dice-'+random+'.svg');
+    img.setAttribute('src', 'assets/dice-'+random+'.svg');
     img.style.display = 'block';
     if(rightDot.style.display == 'none'){
         cPara1.innerHTML = x.toString();
@@ -57,7 +57,7 @@ rollDice.addEventListener('click', function(){
     }
 });
 // for new game
-let newGame = document.querySelector('.newgame');
+let newGame = document.querySelector('.new-game');
 newGame.addEventListener('click', function(){
     rightDot.style.display = 'none';
     leftDot.style.display = 'inline';

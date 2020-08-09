@@ -10,20 +10,20 @@
     height: 450px;
     position: relative;
 }
-.newgame{
+.new-game{
     position: absolute;
     display: flex;
     left: 380px;
     top: 10px;
     cursor: pointer;
 }
-.newgame i{
+.new-game i{
     display: block;
     padding: 7px 10px;
     font-size: 1.5rem;
     color: maroon;
 }
-.newgame h1{
+.new-game h1{
     font-weight: 500;
 }
 .left{
